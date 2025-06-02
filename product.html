@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Product Details</title>
+        <style>
+            ul{
+                float:left;
+            }
+            ol{
+                float:right;
+            }
+            th,td{
+                border: 2px solid black;
+                padding:3px;
+                text-align:left;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            header{
+                /* background: linear-gradient(to right,red,blue); */
+                background: radial-gradient(circle,red,green,yellow);
+            }
+            body{
+                display:flex;
+                flex-direction:column;
+            }
+            main {
+                display:flex;
+                flex-direction:column;
+            }
+            main ul{
+                flex:1;
+            }
+            main ol{
+                flex:1;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Welcome to the Product Details Page</h2>
+        </header>
+        <main>
+            <!-- Lists -->
+            <ul>
+                <li>This is Product 1</li>
+                <li>This is Product 2</li>
+                <li>This is Product 3</li>
+                <li>This is Product 4</li>
+                <li>This is Product 5</li>
+            </ul>
+            <ol type="i">
+                <li>This is Product 1</li>
+                <li>This is Product 2</li>
+                <li>This is Product 3</li>
+                <li>This is Product 4</li>
+                <li>This is Product 5</li>
+            </ol>
+            <br><br>
+            <!-- Tables -->
+             <table>
+                <captain>Product Details:-</captain>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quality</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>5000</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>7000</td>
+                        <td>Very High</td>
+                    </tr>
+                    <tr>
+                        <td>Product 3</td>
+                        <td>5600</td>
+                        <td>Medium</td>
+                    </tr>
+                </tbody>
+                </thead>
+             </table>
+        </main>
+    </body>
+</html>
